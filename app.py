@@ -26,7 +26,7 @@ def input_image_details(uploaded_file):
 st.header('GREEN THUMB MAGIC')
 st.subheader('Choose your plant image and know about it.')
 
-input = st.text_input('Input Prompt' ,key='input')
+input = st.text_input('What you want to know?' ,key='input')
 uploaded_file = st.file_uploader('Image',type=['jpg','jpeg','png'])
 
 if uploaded_file is not None:
