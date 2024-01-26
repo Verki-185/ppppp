@@ -23,7 +23,8 @@ def input_image_details(uploaded_file):
     else:
         raise FileNotFoundError('No file uploaded')
     
-st.header('Plants')
+st.header('GREEN THUMB MAGIC')
+st.subheader('Choose your plant image and know about it.')
 
 input = st.text_input('Input Prompt' ,key='input')
 uploaded_file = st.file_uploader('Image',type=['jpg','jpeg','png'])
